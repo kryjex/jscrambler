@@ -10,7 +10,7 @@ const JSCRAMBLER_DIST_TEMP_FOLDER = `${JSCRAMBLER_TEMP_FOLDER}/dist`;
 const JSCRAMBLER_SRC_TEMP_FOLDER = `${JSCRAMBLER_TEMP_FOLDER}/src`;
 const JSCRAMBLER_BEG_ANNOTATION = '"JSCRAMBLER-BEG";';
 const JSCRAMBLER_END_ANNOTATION = '"JSCRAMBLER-END";';
-const JSCRAMBLER_EXTS = ['.js', '.jsx'];
+const JSCRAMBLER_EXTS = ['.js', '.jsx', '.ts', '.tsx'];
 
 function getBundlePath() {
   for (let i = 0; i < process.argv.length; i++) {
